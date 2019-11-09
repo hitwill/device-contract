@@ -1,7 +1,7 @@
 {
     "name": "device-contract",
     "version": "0.0.1",
-    "description": "Track mobile devices on hyperledger",
+    "description": "Track mobile device states on hyperledger",
     "main": "index.js",
     "engines": {
         "node": ">=8",
