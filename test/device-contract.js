@@ -21,6 +21,7 @@ chai.use(sinonChai);
 
 let contract = new DeviceContract();
 let ctx = contract.createContext();
+//TODO: how to create complete stub?
 ctx.stub = sinon.createStubInstance(ChaincodeStub);
 ctx.clientIdentity = sinon.createStubInstance(ClientIdentity);
 ctx.logging = {
